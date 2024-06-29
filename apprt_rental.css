@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;600&family=Work+Sans:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(222, 229, 245, 0.87);
+  background: whitesmoke;
+}
+
+.main-area {
+  padding-bottom: 5rem;
+  overflow: hidden;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  /* height: 100dvh; */
+  margin-left: var(--sidebar-width);
+  position: relative;
+}
+
+.backgroundImage {
+  background-image: url(../image/room.jpg);
+  height: 150px;
+  filter: blur(0.35px);
+}
+
+.header {
+  width: auto;
+  min-height: 8rem;
+  max-height: 8rem;
+  position: absolute;
+  top: 3%;
+  left: 15%;
+  color: rgb(255, 255, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-text-stroke: 2px rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.title {
+  display: flex;
+  text-decoration: underline;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.cover {
+  margin-top: 10px;
+  align-items: center;
+
+  display: flex;
+  justify-content:left;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+/* .pic {
+    border-radius: 50%;
+  width: 150px;
+  height: 100px;
+  margin: 15px; */
+  /* box-shadow: -1px 0 10px #000000; */
+  /* align-items: center;
+  justify-content: center;
+  text-align: left;
+} */
+ h4 {
+  margin: 5px;
+  text-align: center;
+  /* margin-top: 0.5rem; */
+  font-size: large;
+}
+/*p {
+  margin: 5px;
+  font-size: small;
+} */
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  box-shadow: -1px 0 5px #000000;
+  margin: 15px;
+}

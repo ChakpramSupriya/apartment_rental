@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(55, 204, 207);
+}
+.center {
+ position: relative;
+ width: 300px;
+ height: 420px;
+ background: #f8f4f4;
+ border-radius: 8px;
+
+}
+h1{
+    font-style: italic;
+    margin-top: 60px;
+    margin-left: 6rem;
+}
+.center .txt_field{
+    margin-left: 1.5rem;
+    margin-top: 40px;
+}
+.center .txt_field2{
+    margin-left: 1.5rem;
+    margin-top: 20px;
+}
+label{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+   font-size: small;
+   font-weight: 4;
+   font-style:inherit;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button input{
+    border: none;
+  outline: none;
+  padding: 9px 15px;
+  color: white;
+  background: #2b58cb;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 4px;
+  font-weight: 800;
+  width: 80px;
+  margin-top: 30px;
+  
+}
+.pass {
+    justify-content: center;
+    display: flex;
+    margin-top: 1.5rem;
+}
+a {
+    text-decoration: none;
+}
+
+.text {
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+}
